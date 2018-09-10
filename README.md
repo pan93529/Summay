@@ -8,14 +8,14 @@
 * Accessbility读取屏幕上的控件、模拟点击的demo
 * Dash的应用，code snippet系统搭建，提高效率
 * 密码学
-  '''
+  `
   【hash】 
   散列。把任意尺寸的数据，转换为【固定尺寸】。
   特点：
   确定性：两个不同的hash，他们的原始数据肯定不同。（反之不一定成立，两个不同的文件有可能生成同一个hash，也就是碰撞）
   不可逆性。
   非对称加密：加密和解密用的不同的秘钥。RSA，ECC
-  '''
+  `
 * commit规范
 * debug卡死，no such host as localhost
 * markdown格式记录学习，bear软件的使用
