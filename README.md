@@ -1,5 +1,21 @@
 # 定期的技术总结记录
 
+## 月总结 2018.10.9--2018.11.5
+* 修改包名流程
+[AndroidStudio一步步教你修改项目包名（最详细，最易懂） - StarWithRainbow - CSDN博客](https://blog.csdn.net/qq_35270692/article/details/78336049)
+* NDK，CMake配置
+* Realm版本更新，Migration版本判断，自动更新测试
+* 打磨代码生成工具，利用IDE的自动提示补全和Dash工具组合。
+* IDE内部的插件，xml生成代码，Android Code Generator。内部代码生成插件，Exynap。[GitHub - jiang111/awesome-androidstudio-plugins: 收集Android studio 常用的插件](https://github.com/jiang111/awesome-androidstudio-plugins)
+* 输入法弹出，重新调整布局，标题消失 android:windowSoftInputMode="adjustPan|adjustResize"
+* 多语言支持。见Dash，P.language；列表的第一个不是选择的语言的第一个，需要手动来判断。
+* startActivityForResult()，重写finish(),在finish之前setResult
+* 数据库对象要统一处理，不能到处写。for循环里不能执行数据库对象的set操作，要在外面嵌套beginTransaction。
+* 确定问题，需要去框架的官网看源码的用法实例。
+
+
+
+
 ## 月总结 2018.9.11--2018.10.9
 常用模块
 * SectionRecyclerView 带分区的RecyclerView https://github.com/luizgrp/SectionedRecyclerViewAdapter
